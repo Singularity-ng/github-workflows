@@ -57,7 +57,7 @@ jobs:
         uses: DeterminateSystems/magic-nix-cache-action@v8
 
       - name: Setup FlakeHub Cache
-        uses: DeterminateSystems/flakehub-cache-action@v7
+        uses: DeterminateSystems/flakehub-cache-action@v2
         if: runner.os == 'Linux'
 
       - name: Setup Cachix Cache
